@@ -1,0 +1,7 @@
+.env
+.chroma/
+.chroma_test/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
