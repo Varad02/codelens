@@ -102,6 +102,16 @@ codelens/
 └── cli.py                # CLI entrypoint
 ```
 
+## Benchmarks
+
+### Parameter Count
+![Parameter Count](benchmark_params.png)
+
+### Perplexity on Python Code (log scale)
+![Perplexity](benchmark_perplexity.png)
+
+> Custom (GPT-2 scale) vs HuggingFace GPT-2. Perplexity gap is entirely due to training — the architecture is equivalent.
+
 ## Tech Stack
 
 `PyTorch` · `sentence-transformers` · `ChromaDB` · `OpenAI SDK` · `GitHub API`
