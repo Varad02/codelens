@@ -71,7 +71,7 @@ def run_chat(verbose: bool = False) -> None:
 
     while True:
         try:
-            user_input = input("You: ").strip()
+            user_input = input("You     : ").strip()
         except (EOFError, KeyboardInterrupt):
             print("\nGoodbye!")
             break
